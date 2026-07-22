@@ -28,10 +28,7 @@ SPDX-License-Identifier: CERN-OHL-S-2.0
 Per section 1.9 / section 4 of the Licence, the Source Location for the
 Complete Source of this Product is:
 
-> **TODO: insert public repository URL here before first Conveyance
-> (i.e. before shipping any assembled unit, or sharing design files
-> with a manufacturing partner). A private folder does not satisfy
-> this requirement — see LICENSING.md.**
+> <https://github.com/swingstate/openbattery-hub>
 
 ## What this Licence does NOT cover
 
