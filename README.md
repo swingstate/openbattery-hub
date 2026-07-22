@@ -1,7 +1,9 @@
 # OpenBattery Hub
 
+![OpenBattery Hub PCB](docs/screenshot/2D_PCB%201.9.3_2026-07-22.png)
+
 An open-hardware ESP32-S3 board for the [OpenDTU-OnBattery](https://github.com/hoylabs/OpenDTU-OnBattery)
-ecosystem.
+Project.
 
 - **3x isolated VE.Direct** for Victron MPPT charge controllers
 - **CAN + RS485** for BMS communication (Pylontech, JK, and compatible protocols)
@@ -22,7 +24,7 @@ hardware/
   bom/          Bill of Materials
   fabrication/  Pick-and-Place data and other assembly files
   gerber/       Gerber/drill files for fabrication
-  source/       editable EasyEDA source files (Complete Source, TODO — see hardware/source/README.md)
+  source/       editable EasyEDA/Altium source files (Complete Source, see hardware/source/README.md)
 docs/           additional documentation
 ```
 
