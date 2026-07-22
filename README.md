@@ -41,18 +41,37 @@ A 3D-printable case is included (see [`hardware/case`](hardware/case)).
 
 ## Getting started
 
-1. Power the board via USB-C (5V / 2A recommended).
-2. Wait for it to create its own Wi-Fi hotspot, `OpenDTU-xxxxxx` (default password `OpenDTU42`).
-3. Connect and open `192.168.4.1` in a browser to run through the setup, selecting the configuration profile that matches your battery/MPPT/inverter setup.
-4. Wire up your solar gear according to the selected profile.
+This board is bare hardware — by itself it does nothing. Everything it
+does (talking to your inverters, batteries, and charge controllers, and
+serving the web interface) comes from the **firmware**, which is a
+separate open-source project: [**OpenDTU-OnBattery**](https://github.com/hoylabs/OpenDTU-OnBattery).
+It is not included in this repository (see [License](#license) below)
+and is not preinstalled — you flash it onto the board yourself before
+first use.
 
-Full specifications, port pinouts, wiring diagrams for common setups
-(Pylontech CAN, JK-BMS RS485, Victron SmartShunt, multi-MPPT), and the
-optional OLED/serial header pinout are documented in
+1. **Flash the firmware.** Connect the board to your computer via
+   USB-C and flash OpenDTU-OnBattery onto it. Instructions are in the
+   [OpenDTU-OnBattery documentation](https://opendtu-onbattery.net/);
+   the project also explains what OpenDTU-OnBattery is and how it
+   works in general, independent of this specific board.
+2. **Power it up.** Plug a 5V / 2A USB-C power supply into the board's
+   USB-C port.
+3. **Connect to its Wi-Fi hotspot.** After booting, the board creates
+   its own Wi-Fi network named `OpenDTU-xxxxxx`. Connect to it with the
+   default password `OpenDTU42`.
+4. **Open the web interface.** With a browser, go to `192.168.4.1` and
+   follow the on-screen setup. Be sure to pick the configuration
+   profile that matches your hardware setup (which battery type, how
+   many MPPTs, etc.) — the manual linked below lists the profile for
+   each supported setup.
+5. **Wire up your solar gear.** Connect your batteries, MPPT charge
+   controllers, and/or inverter to the board's ports according to the
+   profile you selected.
+
+Full specifications, port pinouts, and wiring diagrams for common setups
+(Pylontech CAN, JK-BMS RS485, Victron SmartShunt, multi-MPPT), plus the
+optional OLED/serial header pinout, are documented in
 [`docs/Openbattery Hub - Datasheet & Manual.pdf`](docs/Openbattery%20Hub%20-%20Datasheet%20%26%20Manual.pdf).
-
-A more comprehensive overview of OpenDTU-OnBattery itself is available at
-[opendtu-onbattery.net](https://opendtu-onbattery.net/).
 
 ## Repository layout
 
