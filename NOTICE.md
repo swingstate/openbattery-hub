@@ -12,7 +12,7 @@ Covered Source, per section 3 of the Licence.
 - Schematics (`SCH_*`)
 - PCB layout (`PCB_*`)
 - Bill of Materials / Pick-and-Place data (`BOM_*`, `PickAndPlace_*`)
-- Mechanical / enclosure design files, once added
+- Mechanical / enclosure design files (`3DShell_*`)
 - The datasheet and manual describing the hardware
 
 Copyright (c) 2025–2026 Christian Busch.
