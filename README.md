@@ -99,3 +99,25 @@ for the required notice, source location, and scope (including what is
 Firmware is **not** part of this repository. This board is designed to run
 [OpenDTU-OnBattery](https://github.com/hoylabs/OpenDTU-OnBattery), an
 independent open-source project licensed under GPL-3.0.
+
+## Disclaimer
+
+This is an open-source, hobbyist-grade hardware project, provided **"as
+is"**, without warranty of any kind, express or implied — including, but
+not limited to, fitness for a particular purpose or merchantability (see
+[LICENSE](LICENSE) section 6, "Disclaimer and Liability", for the full
+disclaimer of warranty and limitation of liability that governs the
+design files).
+
+This board is intended to be wired into battery and solar/PV systems,
+which involve real electrical, fire, and chemical hazards (e.g. Li-ion
+battery packs, DC bus voltages). Building, modifying, and operating it is
+entirely **at your own risk**. The author(s) and contributors accept
+**no liability** for any damage, injury, data loss, or other harm arising
+from the use, misuse, or malfunction of this design, whether built from
+the files in this repository or from boards manufactured elsewhere.
+
+- This is not a certified or listed product (no CE/UL/etc. certification is claimed).
+- Verify all wiring against your specific battery/inverter/charge-controller documentation before connecting anything.
+- Have any mains or high-voltage work done or checked by a qualified electrician; follow the safety instructions and local regulations that apply to your battery and PV equipment.
+- If you're not comfortable assessing these risks yourself, don't build or operate this board.
