@@ -13,7 +13,7 @@ Project.
 ## Status
 
 - Hardware revision: **1.9.3**
-- Field-tested small series (JLCPCB manufacturing)
+- Field-tested with approx. 50 units
 
 ## Repository layout
 
