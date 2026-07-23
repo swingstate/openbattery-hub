@@ -9,7 +9,7 @@ controllers, and inverters — all in one compact device. Whether you're
 building your own off-grid setup or just love tinkering with energy tech,
 the Hub is designed to keep things simple, open, and fun to experiment with.
 
-Built as an extensible, robust hardware platform for demanding battery
+Built as an extensible, robust hardware platform for a variety of solar battery
 systems, it aims to give developers and technicians a solid foundation
 for building and adapting their own energy management solutions, behind
 a single standardized interface for a range of different battery systems.
@@ -25,8 +25,8 @@ a single standardized interface for a range of different battery systems.
 ## What you can do with it
 
 - Unlock the full potential of OpenDTU-OnBattery — all features fully supported
-- Connect and control Hoymiles HM, HMS, and HMS-T inverters
-- Connect and monitor up to 3 Victron MPPTs
+- Connect and control Hoymiles HM, HMS, and HMT inverters
+- Connect and monitor up to 3 Victron MPPTs or 2 MPPTs and 1 Smartshunt
 - Interface with popular batteries like Pylontech (CAN bus), JK-BMS, and Victron SmartShunt
 - Optionally add a compact OLED display for real-time stats right on the device
 
