@@ -1,6 +1,6 @@
 # OpenBattery Hub
 
-![OpenBattery Hub PCB](docs/screenshot/2D_PCB%201.9.3_2026-07-22.png)
+![OpenBattery Hub PCB](docs/Openbattery%20PCB%201.9.3%202.jpeg)
 
 OpenBattery Hub is a DIY-friendly, open-hardware ESP32-S3 IoT platform built
 to work seamlessly with the open-source [OpenDTU-OnBattery](https://github.com/hoylabs/OpenDTU-OnBattery)
@@ -24,6 +24,8 @@ the Hub is designed to keep things simple, open, and fun to experiment with.
 - Connect and monitor up to 3 Victron MPPTs
 - Interface with popular batteries like Pylontech (CAN bus), JK-BMS, and Victron SmartShunt
 - Optionally add a compact OLED display for real-time stats right on the device
+
+A [detailed PCB view](docs/screenshot/2D_PCB%201.9.3_2026-07-22.png) (top-down, labeled layout) is also available.
 
 ## Enclosure
 
