@@ -9,6 +9,11 @@ controllers, and inverters — all in one compact device. Whether you're
 building your own off-grid setup or just love tinkering with energy tech,
 the Hub is designed to keep things simple, open, and fun to experiment with.
 
+Built as an extensible, robust hardware platform for demanding battery
+systems, it aims to give developers and technicians a solid foundation
+for building and adapting their own energy management solutions, behind
+a single standardized interface for a range of different battery systems.
+
 | Function | Specification |
 |---|---|
 | MCU | ESP32-S3 16MB |
