@@ -30,6 +30,14 @@ a single standardized interface for a range of different battery systems.
 - Interface with popular batteries like Pylontech (CAN bus), JK-BMS, and Victron SmartShunt
 - Optionally add a compact OLED display for real-time stats right on the device
 
+**Example 1** — battery via Cat cable/CAN or JK RS485 adapter, with up to 3 MPPTs:
+
+![Example setup: battery via CAN/RS485 with up to 3 MPPTs](docs/OpenBattery%20Example%201.png)
+
+**Example 2** — battery via Victron SmartShunt, with up to 2 MPPTs:
+
+![Example setup: battery via SmartShunt with up to 2 MPPTs](docs/OpenBattery%20Example%202.png)
+
 A [detailed PCB view](docs/screenshot/2D_PCB%201.9.3_2026-07-22.png) (top-down, labeled layout) is also available.
 
 ## Enclosure
